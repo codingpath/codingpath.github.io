@@ -1,5 +1,6 @@
 # Site settings
-title: Just Another Software Development Blog...
+title: "CodingPath: Just Another Software Development Blog..."
+author: Juan Manuel Caicedo
 email: jmcaicedo1@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I created this blog to share the results of my research when I’m learning something new or preparing a new showcase for my job.
@@ -7,7 +8,12 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://codingpath.github.io" # the base hostname & protocol for your site
 twitter_username: IngJmCaicedo
 github_username:  IngJmCaicedo
+linkedin_username: juan-manuel-caicedo-10693451
+
+exclude: [README.md]
 
 # Build settings
 markdown: kramdown
 theme: minima
+gems:
+  - jekyll-avatar
